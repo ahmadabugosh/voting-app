@@ -41,7 +41,13 @@
 		});
 
 
-	})
+	});
+
+	app.controller('MainController', MainController);
+
+	function MainController($location, $window) {
+		
+	}
 
 
 }())
