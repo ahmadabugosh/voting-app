@@ -26,6 +26,20 @@
 		controllerAs:'vm'
 		});
 
+			$routeProvider.when('/polls', {
+
+		templateURL:'./templates/polls.html'
+		controller:'PollController',
+		controllerAs:'vm'
+		});
+
+		$routeProvider.when('/profile', {
+
+		templateURL:'./templates/profile.html'
+		controller:'ProfileController',
+		controllerAs:'vm'
+		});
+
 
 	})
 
